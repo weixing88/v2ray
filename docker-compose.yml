@@ -8,11 +8,11 @@ services:
     extra_hosts:
       auth.rico93.com: 127.0.0.1
     environment:
-      sspanel_url: "https://nicebar.xyz"
-      key: "5980330"
+      sspanel_url: "https://www.dj28c.cn"
+      key: "46550"
       docker: "true"
-      speedtest: 12
-      node_id: 12
+      speedtest: 13
+      node_id: 13
       api_port: 2333
       downWithPanel: 1
       LDNS: "1.1.1.1"
@@ -24,7 +24,7 @@ services:
       MYSQLPORT: 3306
       PANELTYPE: 0
       usemysql: 0
-      CF_Key: "bbbbbbbbbbbbbbbbbb"
+      CF_Key: "bbbbbbb4b4bbbbbb"
       CF_Email: "getbackcn@gmail.com"
     volumes:
       - /etc/localtime:/etc/localtime:ro
